@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="bag">Bag</span>
+        <span class="item" data-name="shoe">Shoe</span>
+        <span class="item" data-name="watch">Watch</span>
+        <span class="item" data-name="camera">Camera</span>
+        <span class="item" data-name="headphone">Headphone</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="bag"><span><img src="images/bag-1.jpg" alt=""></span></div>
+      <div class="image" data-name="headphone"><span><img src="images/headphone-1.jpg" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="images/camera-1.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="images/shoe-1.jpg" alt=""></span></div>
+      <div class="image" data-name="headphone"><span><img src="images/headphone-2.jpg" alt=""></span></div>
+      <div class="image" data-name="watch"><span><img src="images/watch-1.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="images/shoe-2.jpg" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="images/camera-2.jpg" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
